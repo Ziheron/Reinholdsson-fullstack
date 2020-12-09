@@ -1,0 +1,21 @@
+{
+  "name": "reinholdsson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild" : "cd server && npm install && npm run install-frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziheron/Appen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziheron/Appen/issues"
+  },
+  "homepage": "https://github.com/Ziheron/Appen#readme"
+}
